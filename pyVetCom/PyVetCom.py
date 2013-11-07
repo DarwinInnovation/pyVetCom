@@ -5,6 +5,7 @@ Created on 3 May 2013
 '''
 
 import PyDBISAM 
+import datetime
 
 class RowType(object):
     def __init__(self, val):
@@ -12,6 +13,19 @@ class RowType(object):
         
     def __getattr__(self, name):
         return getattr(self._row, name)
+    
+    def dict(self):
+        d={}
+        for i in range(len(self._row.cursor_description)):
+            c = self._row.cursor_description[i]
+            v = self._row[i]
+            
+            # Fix types
+            if hasattr(v, 'isoformat'):
+                v=v.isoformat()
+
+            d[c[0]] = v
+        return d
 
 def _getxref(xrefcollection, column):
     def get(self):
@@ -69,7 +83,7 @@ class PyVetCom(object):
                 continue
             
             collectionName = ttype + "s"
-            self.__dict__[collectionName] = PyDBISAM.Collection(self, ttype, PyVetCom.Types.__dict__[type])
+            self.__dict__[collectionName] = PyDBISAM.Collection(self, ttype, PyVetCom.Types.__dict__[ttype])
 
         # Second pass - fixup xrefs
         for typename in PyVetCom.Types.__dict__:
@@ -92,4 +106,11 @@ class PyVetCom(object):
         self.con = self.db.connect()
         self._initTables()
         
-    
+    def execute(self, sql, args=None):
+        self.db.execute(sql, args)
+        
+    def convDate(self, dt):
+        if isinstance(dt, datetime.datetime):
+            dt = dt.date()
+            
+        return dt.strftime('%Y-%m-%d') 

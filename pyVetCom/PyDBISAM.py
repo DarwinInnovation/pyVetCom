@@ -14,7 +14,7 @@ class PyDBISAM(object):
 
     stripchars = " \t*,"
 
-    def __init__(self, Local=0, ConnectionType="Remote", CatalogName="VetCom", IP="127.0.0.1", User="nvs", Password="rebell"):
+    def __init__(self, Local=0, ConnectionType="Remote", CatalogName="VetCom", IP="127.0.0.1", User="nvs", Password="rebell", ro=False):
         if Local:
             self.IP = "127.0.0.1"
         else:
@@ -31,7 +31,8 @@ class PyDBISAM(object):
         odbcString = odbcString + "RemoteIPAddress=" + self.IP + ";"
         odbcString = odbcString + "UID=" + User + ";"
         odbcString = odbcString + "PWD=" + Password + ";"
-        odbcString = odbcString + "ReadOnly=True;"
+        if ro:
+            odbcString = odbcString + "ReadOnly=True;"
         self.odbcString = odbcString
 
     def connect(self):
@@ -43,6 +44,9 @@ class PyDBISAM(object):
 
     def execute(self, sql, args):
         self.con.execute(sql, args)
+
+    def commit(self):
+        self.con.commit()
         
 class Collection(object):
     class Query(object):
@@ -95,6 +99,9 @@ class Collection(object):
         
         def sum(self, column):
             return self.collection.sum(self.filters, self.order, column)
+
+        def max(self, column):
+            return self.collection.max(self.filters, self.order, column)
     
     def _subsetClosure(self, filters):
         def method():
@@ -185,4 +192,25 @@ class Collection(object):
         else:
             return 0
     
+    def max(self, filters, order, column):
+        sql=self._baseSelect("MAX(%s)"%column, filters, order)+"TOP 1 "
+        self.cursor.execute(sql)
+        
+        row=self.cursor.fetchone()
+        if row is not None:
+            return row[0]
+        else:
+            return 0
     
+    def insert(self, obj, pre='', post=''):
+        sql=pre+'INSERT INTO %s '%self.tableName
+        sql=sql+'('+', '.join(obj.keys())+') '
+        sql=sql+'VALUES ('+', '.join(['?' for val in obj.values()])+') '+post
+        #+"'acx', '2013-10-30', 5133001, 'INT', 13, 'L') COMMIT INTERVAL 100 FLUSH"                   
+        
+        #+', '.join(['?' for val in obj.values()])+') '+post
+        self.cursor.execute(sql, tuple(obj.values()))
+        
+    def commit(self):
+        self.pyvc.con.commit()
+        
