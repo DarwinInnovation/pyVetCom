@@ -197,7 +197,7 @@ class Collection(object):
         self.cursor.execute(sql)
         
         row=self.cursor.fetchone()
-        if row is not None:
+        if row is not None and row[0] is not None:
             return row[0]
         else:
             return 0
