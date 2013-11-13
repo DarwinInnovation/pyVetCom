@@ -23,6 +23,8 @@ class RowType(object):
             # Fix types
             if hasattr(v, 'isoformat'):
                 v=v.isoformat()
+            elif isinstance(v, basestring):
+                v=unicode(v, 'iso-8859-1')
 
             d[c[0]] = v
         return d
