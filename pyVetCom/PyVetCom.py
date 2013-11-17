@@ -92,4 +92,5 @@ class PyVetCom(object):
         self.con = self.db.connect()
         self._initTables()
         
-    
+    def close(self):
+        self.con.close()
