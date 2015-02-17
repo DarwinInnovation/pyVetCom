@@ -106,6 +106,8 @@ class PyVetCom(object):
         '''
         self.db = PyDBISAM.PyDBISAM()
         self.con = self.db.connect()
+        self._cursor = None
+        
         self._initTables()
         
     def execute(self, sql, args=None):
@@ -117,5 +119,11 @@ class PyVetCom(object):
             
         return dt.strftime('%Y-%m-%d') 
 
+    def cursor(self):
+        if self._cursor is None:
+            self._cursor = self.con.cursor()
+        return self._cursor
+
     def close(self):
         self.con.close()
+        pass

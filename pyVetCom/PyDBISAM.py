@@ -48,6 +48,7 @@ class PyDBISAM(object):
     def commit(self):
         self.con.commit()
         
+        
 class Collection(object):
     class Query(object):
         def __init__(self, collection):
@@ -116,7 +117,7 @@ class Collection(object):
         self.type=type
         self.tableName=type._table
         type._collection=self
-        self.cursor = self.pyvc.con.cursor()
+        self.cursor = self.pyvc.cursor()
         try:
             self.key=type._key
         except:
