@@ -18,6 +18,13 @@ class DayTotal(object):
         self._count = 0
 
     def add(self, sldoc):
+        if type(sldoc) is DayTotal:
+            self._exvat += sldoc._exvat
+            self._incvat += sldoc._incvat
+            self._vat += sldoc._vat
+            self._count += sldoc._count
+            return
+
         if sldoc.TYPE <> self._type:
             assert 'Wrong type'
         self._exvat += sldoc.AMOUNT
@@ -27,7 +34,10 @@ class DayTotal(object):
         self._count += 1
 
     def getTableRow(self):
-        return [self._name, self._incvat, self._count, self._exvat]
+        return [self._name,
+                "&pound;%.2f"%self._incvat,
+                self._count,
+                "&pound;%.2f"%self._exvat]
 
     def __str__(self):
         return "%7.2f (%d)"%(self._incvat, self._count)
@@ -112,12 +122,13 @@ class DayFigures(object):
 
         return out
 
-    def get_table(self):
+    def get_table(self, min_type, max_type):
         table = []
-
-        for t in range(0, 8):
+        total = DayTotal(0, "TOTAL")
+        for t in range(min_type, max_type):
+            total.add(self._totals[t])
             table.append(self._totals[t].getTableRow())
-
+        table.append(total.getTableRow())
         return table
 
     def vt_journals(self, primary_acc, type_map):
