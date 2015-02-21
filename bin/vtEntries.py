@@ -5,14 +5,14 @@ __author__ = 'richardm'
 
 import logging
 import sys
-from PyVetCom import *
+from pyVetCom import *
 from datetime import date, timedelta
 
 
 if __name__ == '__main__':
     logging.basicConfig(level=logging.DEBUG)
 
-    vc = PyVetCom("192.168.3.200")
+    vc = PyVetCom.PyVetCom("192.168.3.200")
 
     start = date(2015, 1, 1) #date.today() - timedelta(weeks=1)
     # while start.weekday() <> 0:
@@ -36,7 +36,7 @@ if __name__ == '__main__':
     while day < end:
         wd = day.weekday()
 
-        df = PyVetCom.DayFigures(day)
+        df = DayFigures.DayFigures(day)
         df.get(vc)
 
         inv = df.vt_inv("2015")

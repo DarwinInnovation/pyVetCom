@@ -1,7 +1,13 @@
+'''
+Created on 3 May 2013
+
+@author: richardm
+'''
 __author__ = 'richardm'
 
+import datetime
 
-class DayTotal:
+class DayTotal(object):
     def __init__(self, type, name):
         self._type = type
         self._name = name
@@ -27,7 +33,7 @@ class DayTotal:
         return "%7.2f (%d)"%(self._incvat, self._count)
 
 
-class DayFigures:
+class DayFigures(object):
     _type_descriptions = [
         'Invoice', 'Credit Note',
         'Cash', 'Cheque', 'Credit Card', 'Credit Transfer',
