@@ -7,6 +7,7 @@ import sys
 import pyodbc
 from datetime import date, time, datetime, timedelta
 
+
 class PyDBISAM(object):
     '''
     classdocs

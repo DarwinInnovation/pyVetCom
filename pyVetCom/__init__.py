@@ -1,1 +1,1 @@
-__all__ = ["PyVetCom", "PyDBISAM"]
+__all__ = ["PyVetCom", "PyDBISAM", "DayFigures"]
