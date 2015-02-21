@@ -5,7 +5,7 @@ Created on 3 May 2013
 '''
 import sys
 import pyodbc
-from datetime import date, time, datetime
+from datetime import date, time, datetime, timedelta
 
 class PyDBISAM(object):
     '''
@@ -14,11 +14,12 @@ class PyDBISAM(object):
 
     stripchars = " \t*,"
 
-    def __init__(self, Local=0, ConnectionType="Remote", CatalogName="VetCom", IP="127.0.0.1", User="nvs", Password="rebell", ro=False):
-        if Local:
-            self.IP = "127.0.0.1"
-        else:
-            self.IP = IP
+    def __init__(self, ConnectionType="Remote", CatalogName="VetCom", IP="127.0.0.1", User="nvs", Password="rebell", ro=False):
+        # if Local:
+        #     self.IP = "127.0.0.1"
+        # else:
+
+        self.IP = IP
 
         self.ConnectionType = ConnectionType
         self.CatalogName    = CatalogName
@@ -83,6 +84,11 @@ class Collection(object):
         def between(self, column, lo, hi): 
             self.filters.append((">=", column, lo))
             self.filters.append(("<", column, hi))
+            return self
+
+        def ondate(self, column, date):
+            self.filters.append((">=", column, date.isoformat()))
+            self.filters.append(("<", column, (date+timedelta(days=1)).isoformat()))
             return self
     
         def orderby(self, column):
@@ -189,7 +195,7 @@ class Collection(object):
         
         row=self.cursor.fetchone()
         if row is not None:
-            return row[0]
+            return row[0] or 0.0
         else:
             return 0
     

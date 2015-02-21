@@ -58,9 +58,16 @@ class PyVetCom(object):
         class SLDoc(RowType):
             _table="SL"
             _xrefs={"Client":"CLNO"}
-            _subsets={"Invs":[("=", "TYPE", 0)], 
-                      "CNs":[("=", "TYPE", 1)]
-                      }
+            _subsets= dict(
+                Invs=[("=", "TYPE", 0)],
+                CNs=[("=", "TYPE", 1)],
+                PaymentCash=[("=", "TYPE", 2)],
+                PaymentChq=[("=", "TYPE", 3)],
+                PaymentCC=[("=", "TYPE", 4)],
+                PaymentTrf=[("=", "TYPE", 5)],
+                JournalDebit=[("=", "TYPE", 6)],
+                JournalCredit=[("=", "TYPE", 7)],
+                Payments=[(">=", "TYPE", 2), ("<=", "TYPE", 5)])
             
         class Transaction(RowType):
             _table="TR"
@@ -100,11 +107,14 @@ class PyVetCom(object):
                 
             
 
-    def __init__(self):
+    def __init__(self, ip):
         '''
         Constructor
         '''
-        self.db = PyDBISAM.PyDBISAM()
+        if ip is None:
+            ip="127.0.0.1"
+
+        self.db = PyDBISAM.PyDBISAM(IP=ip)
         self.con = self.db.connect()
         self._cursor = None
         
