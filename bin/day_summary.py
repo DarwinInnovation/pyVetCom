@@ -63,12 +63,12 @@ if __name__ == '__main__':
     if day_after > today:
         day_after = None
 
-    print '<TABLE align="center"><tr>'
+    print '<TABLE align="center" width="100%"><tr>'
     day_before_str = day_before.strftime("%d-%m-%y")
-    print '<td align="left"><a href="day_summary.py?%s">%s</a></td>'%(day_before_str,day_before_str)
+    print '<td align="left"><a href="day_summary.py?%s">< %s</a></td>'%(day_before_str,day_before_str)
     if day_after is not None:
         day_after_str = day_after.strftime("%d-%m-%y")
-        print '<td align="right"><a href="day_summary.py?%s">%s</a></td>'%(day_after_str,day_after_str)
+        print '<td align="right"><a href="day_summary.py?%s">%s ></a></td>'%(day_after_str,day_after_str)
     else:
         print '<td align="right">Up to date</td>'
     print '</TR></TABLE>'
