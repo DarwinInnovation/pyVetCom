@@ -42,6 +42,6 @@ if __name__ == '__main__':
                 print '<TD align="%s">%s%s%s</TD>'%(halign, style, c, endstyle)
                 halign="right"
 
-            print '</TR>'
+            print '</TR><TR></TR>'
     print '</TABLE>'
     print '</BODY>'
