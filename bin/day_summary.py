@@ -2,7 +2,7 @@ __author__ = 'richardm'
 
 import sys
 from pyVetCom import *
-from datetime import date, timedelta
+from datetime import date, datetime, timedelta
 
 
 if __name__ == '__main__':
@@ -10,7 +10,14 @@ if __name__ == '__main__':
 
     vc = PyVetCom.PyVetCom("192.168.3.200")
 
-    day = date.today()
+    today = date.today()
+
+    day = today
+    if len(sys.argv)>1 and sys.argv[1]<>"":
+        arg=sys.argv[1]
+        if len(arg)==8:
+            day = datetime.strptime(arg, "%d-%m-%y").date()
+
 
     df = DayFigures.DayFigures(day)
     df.get(vc)
@@ -50,4 +57,19 @@ if __name__ == '__main__':
     print '</TABLE>'
     if len(sys.argv):
         print '<pre>%s</pre>'%sys.argv
+
+    day_before = (day - timedelta(days=1))
+    day_after = (day + timedelta(days=1))
+    if day_after > today:
+        day_after = None
+
+    print '<TABLE align="center"><tr>'
+    day_before_str = day_before.strftime("%d-%m-%y")
+    print '<td align="left"><a href="day_summary.py?%s">%s</a></td>'%(day_before_str,day_before_str)
+    if day_after is not None:
+        day_after_str = day_after.strftime("%d-%m-%y")
+        print '<td align="right"><a href="day_summary.py?%s">%s</a></td>'%(day_after_str,day_after_str)
+    else:
+        print '<td align="right">Up to date</td>'
+    print '</TR></TABLE>'
     print '</BODY>'
