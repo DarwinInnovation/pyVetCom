@@ -30,7 +30,7 @@ class DayTotal(object):
             assert 'Wrong type'
         self._exvat += sldoc.AMOUNT * self._dir
         self._incvat += sldoc.TOTAL * self._dir
-        self._vat += (sldoc.VAT  * self._dir) or 0
+        self._vat += (sldoc.VAT or 0) * self._dir
 
         self._count += 1
 
@@ -78,7 +78,7 @@ class DayFigures(object):
 
     def vt_inv(self, primary_acc):
         invs=self._totals[0]
-        if (invs._incvat <= 0.0):
+        if (invs._incvat >= 0.0):
             return None
 
         out='SIN,'                                  # Type
@@ -86,9 +86,9 @@ class DayFigures(object):
         out+='%s,'%self._date.strftime("%d/%m/%y")  # Date
         out+='"%s",'%primary_acc                    # Primary account
         out+='"VW Invoices (%d)",'%invs._count         # Details
-        out+='%.2f,'%invs._incvat                   # Total
-        out+='%.2f,'%invs._vat                      # VAT
-        out+='%.2f,'%invs._exvat                    # ex VAT
+        out+='%.2f,'%(-invs._incvat)                  # Total
+        out+='%.2f,'%(-invs._vat)                      # VAT
+        out+='%.2f,'%(-invs._exvat)                    # ex VAT
         out+='"Income: Sales",'                     # Analysis account
         out+=',,\n'
         return out
@@ -153,8 +153,6 @@ class DayFigures(object):
                 out = ''
 
             tm = type_map[t]
-            if 'invert' in tm and tm['invert']:
-                total = - total
 
             out+='JRN,[auto],'
             out+='%s,,"%s",,,'%(self._date.strftime("%d/%m/%y"), tm['details'])

@@ -14,9 +14,9 @@ if __name__ == '__main__':
 
     vc = PyVetCom.PyVetCom("192.168.3.200")
 
-    start = date(2015, 1, 1) #date.today() - timedelta(weeks=1)
-    # while start.weekday() <> 0:
-    #     start = start - timedelta(days=1)
+    start = date.today() - timedelta(weeks=1)
+    while start.weekday() <> 0:
+        start = start - timedelta(days=1)
     end = date.today() - timedelta(days=1)
 
     dailyfigures = []
@@ -27,7 +27,7 @@ if __name__ == '__main__':
             4: {'acc': 'Customers: 2015 C Card', 'details': 'VW Credit Card'},
             5: {'acc':   'Customers: 2015 BACS', 'details': 'VW Bank Transfers'},
             6: {'acc':  'Customers: 2015 Error', 'details': 'VW Journal Debit'},
-            7: {'acc':  'Customers: 2015 Error', 'details': 'VW Journal Credit', 'invert':True},
+            7: {'acc':  'Customers: 2015 Error', 'details': 'VW Journal Credit'},
         }
 
     ofile = open('vt.csv', 'w')

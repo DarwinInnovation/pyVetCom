@@ -1,5 +1,6 @@
 __author__ = 'richardm'
 
+import sys
 from pyVetCom import *
 from datetime import date, timedelta
 
@@ -25,10 +26,10 @@ if __name__ == '__main__':
           '<LINK rel="stylesheet" href="style.css">' \
           '</HEAD>'
     print '<BODY>'
-    print '<H1>%s</H1>'%day.strftime("%a %d/%m/%y")
+    print '<H1 align="center">%s</H1>'%day.strftime("%a %d/%m/%y")
 
     print '<br>'
-    print '<TABLE>'
+    print '<TABLE align="center">'
     for t in tables:
         table = df.get_table(t[0], t[1], t[2])
         for r in table:
@@ -47,4 +48,6 @@ if __name__ == '__main__':
 
         print '</TR><TR><TD colspan="4">&nbsp;</TD></TR>'
     print '</TABLE>'
+    if sys.argv.length:
+        print '<pre>%s</pre>'%sys.argv
     print '</BODY>'
