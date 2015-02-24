@@ -32,12 +32,16 @@ if __name__ == '__main__':
             halign="left"
             print '<TR>'
             if r[0] == "TOTAL":
-                print '<STRONG>'
+                style="<STRONG>"
+                endstyle="</STRONG>"
+            else:
+                style=""
+                endstyle=""
+
             for c in r:
-                print '<TD halign="%s">%s</TD>'%(halign, c)
+                print '<TD align="%s">%s%s%s</TD>'%(halign, style, c, endstyle)
                 halign="right"
-            if r[0] == "TOTAL":
-                print '</STRONG>'
+
             print '</TR>'
     print '</TABLE>'
     print '</BODY>'
