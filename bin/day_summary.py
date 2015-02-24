@@ -37,7 +37,8 @@ if __name__ == '__main__':
 
     print '<br>'
     print '<TABLE align="center">'
-    for t in tables:
+    for nt in enumerate(tables, start=1):
+        t = nt[1]
         table = df.get_table(t[0], t[1], t[2])
         for r in table:
             halign="left"
@@ -53,10 +54,10 @@ if __name__ == '__main__':
                 print '<TD align="%s">%s%s%s</TD>'%(halign, style, c, endstyle)
                 halign="right"
 
-        print '</TR><TR><TD colspan="4">&nbsp;</TD></TR>'
+        print '</TR>'
+        if nt[0] < len(tables):
+            print '<TR><TD colspan="4">&nbsp;</TD></TR>'
     print '</TABLE>'
-    if len(sys.argv):
-        print '<pre>%s</pre>'%sys.argv
 
     day_before = (day - timedelta(days=1))
     day_after = (day + timedelta(days=1))
