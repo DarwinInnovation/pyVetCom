@@ -48,6 +48,6 @@ if __name__ == '__main__':
 
         print '</TR><TR><TD colspan="4">&nbsp;</TD></TR>'
     print '</TABLE>'
-    if sys.argv.length:
+    if len(sys.argv):
         print '<pre>%s</pre>'%sys.argv
     print '</BODY>'
