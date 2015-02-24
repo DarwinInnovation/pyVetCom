@@ -8,9 +8,10 @@ __author__ = 'richardm'
 import datetime
 
 class DayTotal(object):
-    def __init__(self, type, name):
+    def __init__(self, type, name, dir):
         self._type = type
         self._name = name
+        self._dir  = dir
         self._exvat = 0
         self._incvat = 0
         self._vat = 0
@@ -27,17 +28,18 @@ class DayTotal(object):
 
         if sldoc.TYPE <> self._type:
             assert 'Wrong type'
-        self._exvat += sldoc.AMOUNT
-        self._incvat += sldoc.TOTAL
-        self._vat += sldoc.VAT or 0
+        self._exvat += sldoc.AMOUNT * self._dir
+        self._incvat += sldoc.TOTAL * self._dir
+        self._vat += (sldoc.VAT  * self._dir) or 0
 
         self._count += 1
 
-    def getTableRow(self):
+    def getTableRow(self, mult):
+        mult = mult or 1
         return [self._name,
-                "&pound;%.2f"%self._incvat,
+                "&pound;%.2f"%(self._incvat*mult),
                 self._count,
-                "&pound;%.2f"%self._exvat]
+                "&pound;%.2f"%(self._exvat*mult)]
 
     def __str__(self):
         return "%7.2f (%d)"%(self._incvat, self._count)
@@ -50,11 +52,17 @@ class DayFigures(object):
          'Journal Debit', 'Journal Credit'
     ]
 
+    _type_credit_or_debit = [
+        -1, 1,
+        1, 1, 1, 1,
+        -1, 1
+    ]
+
     def __init__(self, dt):
         self._date = dt
         self._totals = []
         for t in range(0,8):
-            self._totals.append(DayTotal(t, DayFigures._type_descriptions[t]))
+            self._totals.append(DayTotal(t, DayFigures._type_descriptions[t], DayFigures._type_credit_or_debit[t]))
 
     def get(self, vc):
         doclist = vc.SLDocs().ondate("DATETIME", self._date).getList()
@@ -122,13 +130,15 @@ class DayFigures(object):
 
         return out
 
-    def get_table(self, min_type, max_type):
+    def get_table(self, min_type, max_type, mult):
+        mult = mult or 1
+
         table = []
-        total = DayTotal(0, "TOTAL")
+        total = DayTotal(0, "TOTAL", 1)
         for t in range(min_type, max_type):
             total.add(self._totals[t])
-            table.append(self._totals[t].getTableRow())
-        table.append(total.getTableRow())
+            table.append(self._totals[t].getTableRow(mult))
+        table.append(total.getTableRow(mult))
         return table
 
     def vt_journals(self, primary_acc, type_map):

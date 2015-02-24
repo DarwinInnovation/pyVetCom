@@ -14,7 +14,7 @@ if __name__ == '__main__':
     df = DayFigures.DayFigures(day)
     df.get(vc)
 
-    tables = [(0,2), (2, 6), (6, 8)]
+    tables = [(0, 2, -1), (2, 6, 1), (6, 8, 1)]
 
     print 'Status: 200 OK'
     print 'Content-type: text/html\r\n'
@@ -27,7 +27,7 @@ if __name__ == '__main__':
     print '<br>'
     print '<TABLE>'
     for t in tables:
-        table = df.get_table(t[0], t[1])
+        table = df.get_table(t[0], t[1], t[2])
         for r in table:
             halign="left"
             print '<TR>'
