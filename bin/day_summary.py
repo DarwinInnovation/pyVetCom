@@ -25,14 +25,19 @@ if __name__ == '__main__':
     print '<H1>%s</H1>'%day.strftime("%a %d/%m/%y")
 
     print '<br>'
+    print '<TABLE>'
     for t in tables:
         table = df.get_table(t[0], t[1])
-
-        print '<TABLE>'
         for r in table:
+            halign="left"
             print '<TR>'
+            if r[0] == "TOTAL":
+                print '<STRONG>'
             for c in r:
-                print '<TD>%s</TD>'%c
+                print '<TD halign="%s">%s</TD>'%(halign, c)
+                halign="right"
+            if r[0] == "TOTAL":
+                print '</STRONG>'
             print '</TR>'
-        print '</TABLE>'
+    print '</TABLE>'
     print '</BODY>'
