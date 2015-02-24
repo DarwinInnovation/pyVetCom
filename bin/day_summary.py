@@ -20,7 +20,10 @@ if __name__ == '__main__':
     print 'Content-type: text/html\r\n'
     print
 
-    print '<HTML><HEAD><TITLE>Day Summary</TITLE></HEAD>'
+    print '<HTML><HEAD>'
+    print '<TITLE>Day Summary</TITLE>' \
+          '<LINK rel="stylesheet" href="style.css">' \
+          '</HEAD>'
     print '<BODY>'
     print '<H1>%s</H1>'%day.strftime("%a %d/%m/%y")
 
