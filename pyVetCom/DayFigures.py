@@ -146,7 +146,7 @@ class DayFigures(object):
         for t in range(6, 8):
             total = self._totals[t]._exvat
 
-            if total <= 0:
+            if abs(total) <= 0.01:
                 continue
 
             if out is None:
@@ -156,8 +156,8 @@ class DayFigures(object):
 
             out+='JRN,[auto],'
             out+='%s,,"%s",,,'%(self._date.strftime("%d/%m/%y"), tm['details'])
-            out+='%.2f,"%s","%s",""\n'%(total,primary_acc, tm['details'])
-            out +='"","","","","",,,%.2f,"%s","%s",\n'%(-total,tm['acc'],tm['details'])
+            out+='%.2f,"%s","%s",""\n'%(-total,primary_acc, tm['details'])
+            out +='"","","","","",,,%.2f,"%s","%s",\n'%(total,tm['acc'],tm['details'])
 
         return out
 

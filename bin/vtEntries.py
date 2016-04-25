@@ -13,21 +13,21 @@ if __name__ == '__main__':
     logging.basicConfig(level=logging.DEBUG)
 
     vc = PyVetCom.PyVetCom("192.168.3.200")
-
-    start = date.today() - timedelta(weeks=1)
-    while start.weekday() <> 0:
-        start = start - timedelta(days=1)
-    end = date.today() - timedelta(days=1)
+    start = date(2016, 3, 24)
+    # start = date.today() - timedelta(weeks=1)
+    # while start.weekday() <> 0:
+    #     start = start - timedelta(days=1)
+    end = date.today() #- timedelta(days=1)
 
     dailyfigures = []
 
     type_accs = {
-            2: {'acc':   'Customers: 2015 Cash', 'details': 'VW Cash'},
-            3: {'acc':   'Customers: 2015 Cash', 'details': 'VW Cheques'},
-            4: {'acc': 'Customers: 2015 C Card', 'details': 'VW Credit Card'},
-            5: {'acc':   'Customers: 2015 BACS', 'details': 'VW Bank Transfers'},
-            6: {'acc':  'Customers: 2015 Error', 'details': 'VW Journal Debit'},
-            7: {'acc':  'Customers: 2015 Error', 'details': 'VW Journal Credit'},
+            2: {'acc':   'Customers: 2016 Cash', 'details': 'VW Cash'},
+            3: {'acc':   'Customers: 2016 Cheque', 'details': 'VW Cheques'},
+            4: {'acc': 'Customers: 2016 C Card', 'details': 'VW Credit Card'},
+            5: {'acc':   'Customers: 2016 BACS', 'details': 'VW Bank Transfers'},
+            6: {'acc':  'Customers: 2016 Error', 'details': 'VW Journal Debit'},
+            7: {'acc':  'Customers: 2016 Error', 'details': 'VW Journal Credit'},
         }
 
     ofile = open('vt.csv', 'w')
@@ -39,10 +39,10 @@ if __name__ == '__main__':
         df = DayFigures.DayFigures(day)
         df.get(vc)
 
-        inv = df.vt_inv("2015")
-        cn = df.vt_cns("2015")
-        payments = df.vt_payments("Customers: 2015", type_accs)
-        journals = df.vt_journals("Customers: 2015", type_accs)
+        inv = df.vt_inv("2016")
+        cn = df.vt_cns("2016")
+        payments = df.vt_payments("Customers: 2016", type_accs)
+        journals = df.vt_journals("Customers: 2016", type_accs)
 
         if inv is not None:
             ofile.write(inv)

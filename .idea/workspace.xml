@@ -1,0 +1,1216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="705c812c-4b67-488b-8be5-9be32b42984b" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/pyVetCom.iml" afterPath="$PROJECT_DIR$/.idea/pyVetCom.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/vtEntries.py" afterPath="$PROJECT_DIR$/bin/vtEntries.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pyVetCom/DayFigures.py" afterPath="$PROJECT_DIR$/pyVetCom/DayFigures.py" />
+    </list>
+    <ignored path="pyVetCom.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/pyVetCom$visa_test.coverage" NAME="visa_test Coverage Results" MODIFIED="1455007491290" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../visa_test" />
+    <SUITE FILE_PATH="coverage/pyVetCom$vtEntries.coverage" NAME="vtEntries Coverage Results" MODIFIED="1460629396779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bin" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="pyVetCom" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="visa_test.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../visa_test/visa_test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="reconWeekly.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bin/reconWeekly.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="254">
+              <caret line="63" column="44" selection-start-line="63" selection-start-column="44" selection-end-line="63" selection-end-column="44" />
+              <folding>
+                <element signature="e#74#88#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="vtEntries.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bin/vtEntries.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+              <folding>
+                <element signature="e#74#88#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PyDBISAM.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pyVetCom/PyDBISAM.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+              <folding>
+                <marker date="1424537047324" expanded="true" signature="4264:4279" placeholder="SELECT missi... missing_value" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PyVetCom.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pyVetCom/PyVetCom.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="day_summary.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bin/day_summary.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="952">
+              <caret line="58" column="19" selection-start-line="58" selection-start-column="19" selection-end-line="58" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/bin/pyVetScorecard.py" />
+        <option value="$PROJECT_DIR$/pyVetCom/PyVetCom.py" />
+        <option value="$PROJECT_DIR$/pyVetCom/PyDBISAM.py" />
+        <option value="$PROJECT_DIR$/pyVetCom/__init__.py" />
+        <option value="$PROJECT_DIR$/bin/day_summary.py" />
+        <option value="$PROJECT_DIR$/bin/vt.csv" />
+        <option value="$PROJECT_DIR$/pyVetCom/DayFigures.py" />
+        <option value="C:/BenthamGIT/Emben/tools/pyEmben/src/pyEmben/pyemben/usb_comms.py" />
+        <option value="C:/BenthamGIT/Emben/tools/pyEmben/src/pyEmben/tests/usb_comms_test.py" />
+        <option value="$PROJECT_DIR$/../visa_test/visa_test.py" />
+        <option value="$PROJECT_DIR$/../pyVetBloods/DarwinVets/Bloods/Mythic.py" />
+        <option value="$PROJECT_DIR$/../pyVetBloods/DarwinVets/Bloods/SpotChemEL.py" />
+        <option value="$PROJECT_DIR$/bin/reconWeekly.py" />
+        <option value="$PROJECT_DIR$/bin/vtEntries.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1672" />
+    <option name="width" value="1936" />
+    <option name="height" value="1096" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pyVetCom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pyVetCom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="visa_test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="recentsLimit" value="5" />
+    <property name="restartRequiresConfirmation" value="true" />
+    <property name="options.lastSelected" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="LayoutCode.rearrangeEntriesPython" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\richardm\PycharmProjects\pyVetCom\bin" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.reconWeekly">
+    <configuration default="false" name="reconWeekly" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="PYTHONIOENCODING" value="windows-1252" />
+        <env name="PYTHONPATH" value="C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\BenthamGIT\Emben\tools\pyEmben;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\BenthamGIT\Emben\tools\pyEmben;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\BenthamGIT\Emben\tools\pyEmben;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\BenthamGIT\Emben\tools\pyEmben;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\BenthamGIT\Emben\tools\pyEmben;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\BenthamGIT\Emben\tools\pyEmben;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\BenthamGIT\Emben\tools\pyEmben;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\BenthamGIT\Emben\tools\pyEmben;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\BenthamGIT\Emben\tools\pyEmben;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\BenthamGIT\Emben\tools\pyEmben;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\BenthamGIT\Emben\tools\pyEmben;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\BenthamGIT\Emben\tools\pyEmben;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\BenthamGIT\Emben\tools\pyEmben;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\BenthamGIT\Emben\tools\pyEmben;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\BenthamGIT\Emben\tools\pyEmben;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\BenthamGIT\Emben\tools\pyEmben;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\BenthamGIT\Emben\tools\pyEmben;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\BenthamGIT\Emben\tools\pyEmben;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\BenthamGIT\Emben\tools\pyEmben;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\BenthamGIT\Emben\tools\pyEmben;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\BenthamGIT\Emben\tools\pyEmben;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\BenthamGIT\Emben\tools\pyEmben;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\BenthamGIT\Emben\tools\pyEmben;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom;C:\Users\richardm\PycharmProjects\pyVetCom\pyVetCom;C:\BenthamGIT\Emben\tools\pyEmben;C:\Users\richardm\PycharmProjects\pyVetCom\bin;C:\Users\richardm\PycharmProjects\pyVetCom" />
+        <env name="PYCHARM_HOSTED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bin" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="pyVetCom" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bin/reconWeekly.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <RunnerSettings RunnerId="PyDebugRunner" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PyDebugRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="vtEntries" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bin" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="pyVetCom" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bin/vtEntries.py" />
+      <option name="PARAMETERS" value="23-02-15" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <RunnerSettings RunnerId="PyDebugRunner" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PyDebugRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="day_summary" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bin" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="pyVetCom" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bin/day_summary.py" />
+      <option name="PARAMETERS" value="23-02-15" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="hash_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="C:/BenthamGIT/Emben/tools/pyEmben/src/pyEmben/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="pyEmben" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="C:/BenthamGIT/Emben/tools/pyEmben/src/pyEmben/tests/hash_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="visa_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../visa_test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="visa_test" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../visa_test/visa_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="pyEmben" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="pyEmben" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="pyEmben" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="pyVetCom" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <module name="pyEmben" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="pyVetCom" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="pyVetCom" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="pyVetCom" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="pyVetCom" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="pyVetCom" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="usb_comms" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="C:\Python27\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="pyEmben" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="C:\BenthamGIT\Emben\tools\pyEmben\src\pyEmben\tests\usb_comms_test.py" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
+      <method />
+    </configuration>
+    <list size="6">
+      <item index="0" class="java.lang.String" itemvalue="Python tests.usb_comms" />
+      <item index="1" class="java.lang.String" itemvalue="Python.reconWeekly" />
+      <item index="2" class="java.lang.String" itemvalue="Python.vtEntries" />
+      <item index="3" class="java.lang.String" itemvalue="Python.day_summary" />
+      <item index="4" class="java.lang.String" itemvalue="Python.hash_test" />
+      <item index="5" class="java.lang.String" itemvalue="Python.visa_test" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.reconWeekly" />
+        <item index="1" class="java.lang.String" itemvalue="Python.vtEntries" />
+        <item index="2" class="java.lang.String" itemvalue="Python.visa_test" />
+        <item index="3" class="java.lang.String" itemvalue="Python.hash_test" />
+        <item index="4" class="java.lang.String" itemvalue="Python.day_summary" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="705c812c-4b67-488b-8be5-9be32b42984b" name="Default" comment="" />
+      <created>1424164658607</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1424164658607</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Add new scripts">
+      <created>1424525267348</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1424525267348</updated>
+    </task>
+    <task id="LOCAL-00002" summary="move DayFigures">
+      <created>1424537376810</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1424537376810</updated>
+    </task>
+    <task id="LOCAL-00003" summary="fix imports">
+      <created>1424537795445</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1424537795445</updated>
+    </task>
+    <task id="LOCAL-00004" summary="create tables">
+      <created>1424539944481</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1424539944481</updated>
+    </task>
+    <task id="LOCAL-00005" summary="format">
+      <created>1424785006321</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1424785006321</updated>
+    </task>
+    <task id="LOCAL-00006" summary="format">
+      <created>1424785321916</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1424785321916</updated>
+    </task>
+    <task id="LOCAL-00007" summary="format">
+      <created>1424785420678</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1424785420678</updated>
+    </task>
+    <task id="LOCAL-00008" summary="format">
+      <created>1424785516927</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1424785516927</updated>
+    </task>
+    <task id="LOCAL-00009" summary="format">
+      <created>1424785630042</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1424785630042</updated>
+    </task>
+    <task id="LOCAL-00010" summary="format">
+      <created>1424785665043</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1424785665043</updated>
+    </task>
+    <task id="LOCAL-00011" summary="format">
+      <created>1424786237219</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1424786237219</updated>
+    </task>
+    <task id="LOCAL-00012" summary="format">
+      <created>1424786650551</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1424786650551</updated>
+    </task>
+    <task id="LOCAL-00013" summary="format">
+      <created>1424799921485</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1424799921485</updated>
+    </task>
+    <task id="LOCAL-00014" summary="add args">
+      <created>1424800004603</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1424800004603</updated>
+    </task>
+    <task id="LOCAL-00015" summary="add fwd/back">
+      <created>1424808941935</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1424808941935</updated>
+    </task>
+    <task id="LOCAL-00016" summary="add fwd/back">
+      <created>1424809039370</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1424809039370</updated>
+    </task>
+    <task id="LOCAL-00017" summary="add fwd/back">
+      <created>1424809415567</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1424809415568</updated>
+    </task>
+    <task id="LOCAL-00018" summary="check for result">
+      <created>1457617888777</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1457617888777</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1672" y="0" width="1936" height="1096" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16257995" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15336788" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28704664" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24946696" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39896372" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15129533" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32919255" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13751318" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973656" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add new scripts" />
+    <MESSAGE value="move DayFigures" />
+    <MESSAGE value="fix imports" />
+    <MESSAGE value="create tables" />
+    <MESSAGE value="format" />
+    <MESSAGE value="add args" />
+    <MESSAGE value="add fwd/back" />
+    <MESSAGE value="check for result" />
+    <option name="LAST_COMMIT_MESSAGE" value="check for result" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/bin/pyVetScorecard.py</url>
+          <line>6</line>
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/bin/vtEntries.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://C:/BenthamGIT/Emben/tools/pyEmben/src/pyEmben/tests/usb_comms_test.py</url>
+          <line>39</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+      <option name="time" value="10" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/bin/vtEntries.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#74#88#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/vt.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="85" column="0" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/day_summary.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="58" column="19" selection-start-line="58" selection-start-column="19" selection-end-line="58" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyVetCom/DayFigures.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="80" column="26" selection-start-line="80" selection-start-column="26" selection-end-line="80" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyVetCom/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyVetCom/PyVetCom.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="5" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/vtEntries.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#74#88#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyVetCom/PyDBISAM.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/pyVetScorecard.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="36" column="41" selection-start-line="36" selection-start-column="14" selection-end-line="36" selection-end-column="41" />
+          <folding>
+            <element signature="e#50#64#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/reconWeekly.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="63" column="44" selection-start-line="63" selection-start-column="44" selection-end-line="63" selection-end-column="44" />
+          <folding>
+            <element signature="e#74#88#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/day_summary.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="58" column="19" selection-start-line="58" selection-start-column="19" selection-end-line="58" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyVetCom/DayFigures.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="80" column="26" selection-start-line="80" selection-start-column="26" selection-end-line="80" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyVetCom/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyVetCom/PyVetCom.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="5" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/vtEntries.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#74#88#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyVetCom/PyDBISAM.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/pyVetScorecard.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="36" column="41" selection-start-line="36" selection-start-column="14" selection-end-line="36" selection-end-column="41" />
+          <folding>
+            <element signature="e#50#64#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/reconWeekly.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="100" column="20" selection-start-line="100" selection-start-column="20" selection-end-line="100" selection-end-column="20" />
+          <folding>
+            <element signature="e#74#88#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/day_summary.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="58" column="19" selection-start-line="58" selection-start-column="19" selection-end-line="58" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyVetCom/DayFigures.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="80" column="26" selection-start-line="80" selection-start-column="26" selection-end-line="80" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyVetCom/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyVetCom/PyVetCom.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="5" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/vtEntries.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#74#88#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/pyVetScorecard.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="36" column="41" selection-start-line="36" selection-start-column="14" selection-end-line="36" selection-end-column="41" />
+          <folding>
+            <element signature="e#50#64#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/reconWeekly.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="59" column="6" selection-start-line="59" selection-start-column="6" selection-end-line="59" selection-end-column="6" />
+          <folding>
+            <element signature="e#74#88#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyVetCom/PyDBISAM.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyVetCom/PyVetCom.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="115" column="0" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyVetCom/PyVetCom.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="65" column="45" selection-start-line="65" selection-start-column="45" selection-end-line="65" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/pyVetScorecard.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="35" column="37" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="37" />
+          <folding>
+            <element signature="e#50#64#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/reconWeekly.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+          <folding>
+            <element signature="e#74#88#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyVetCom/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="32" selection-start-line="0" selection-start-column="32" selection-end-line="0" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyVetCom/PyDBISAM.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="90" column="23" selection-start-line="90" selection-start-column="23" selection-end-line="90" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_pluginbase.py" />
+    <entry file="file://$PROJECT_DIR$/bin/pyVetScorecard.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="36" column="41" selection-start-line="36" selection-start-column="14" selection-end-line="36" selection-end-column="41" />
+          <folding>
+            <element signature="e#50#64#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Python27/Lib/site-packages/openpyxl-2.1.4-py2.7.egg!/openpyxl/worksheet/worksheet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="140" column="13" selection-start-line="140" selection-start-column="13" selection-end-line="140" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd_breakpoints.py" />
+    <entry file="file://$PROJECT_DIR$/bin/vt.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="231" column="0" selection-start-line="231" selection-start-column="0" selection-end-line="231" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyVetCom/DayFigures.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="159" column="56" selection-start-line="159" selection-start-column="56" selection-end-line="159" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyVetCom/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/BenthamGIT/Emben/tools/pyEmben/src/pyEmben/pyemben/usb_comms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="39" column="20" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/BenthamGIT/Emben/tools/pyEmben/src/pyEmben/tests/usb_comms_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="45" column="5" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../visa_test/visa_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pyVetBloods/DarwinVets/Bloods/SpotChemEZ.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="35" column="51" selection-start-line="35" selection-start-column="51" selection-end-line="35" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pyVetBloods/DarwinVets/Bloods/SpotChemBase.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pyVetBloods/DarwinVets/Bloods/SpotChemEL.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="27" column="36" selection-start-line="27" selection-start-column="36" selection-end-line="28" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pyVetBloods/DarwinVets/Bloods/Mythic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="81" column="8" selection-start-line="81" selection-start-column="8" selection-end-line="81" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyVetCom/PyDBISAM.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding>
+            <marker date="1424537047324" expanded="true" signature="4264:4279" placeholder="SELECT missi... missing_value" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyVetCom/PyVetCom.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/day_summary.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="952">
+          <caret line="58" column="19" selection-start-line="58" selection-start-column="19" selection-end-line="58" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/vtEntries.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+          <folding>
+            <element signature="e#74#88#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/reconWeekly.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="63" column="44" selection-start-line="63" selection-start-column="44" selection-end-line="63" selection-end-column="44" />
+          <folding>
+            <element signature="e#74#88#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

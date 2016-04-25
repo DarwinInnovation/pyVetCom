@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://C:/BenthamGIT/Emben/tools/pyEmben/.idea/pyEmben.iml" filepath="C:/BenthamGIT/Emben/tools/pyEmben/.idea/pyEmben.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../pyVetBloods/.idea/pyVetBloods.iml" filepath="$PROJECT_DIR$/../pyVetBloods/.idea/pyVetBloods.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/pyVetCom.iml" filepath="$PROJECT_DIR$/.idea/pyVetCom.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../visa_test/.idea/visa_test.iml" filepath="$PROJECT_DIR$/../visa_test/.idea/visa_test.iml" />
     </modules>
   </component>
 </project>
